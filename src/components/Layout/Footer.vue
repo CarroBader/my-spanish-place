@@ -4,14 +4,8 @@
     </footer>
 </template>
 
-<style scoped>
-  footer {
-    text-align: center;
-    background-color: #121212;
-    border-top: 1px solid #e10600;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    color: #fff;
+<style scoped lang="scss">
+  body {
+    background-color: $lejon;
   }
 </style>

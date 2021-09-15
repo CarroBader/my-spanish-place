@@ -2,7 +2,7 @@
     <b-navbar toggleable="md navbar-top">
       <img
         src="../../assets/logo.png"
-        class="nav-logo-top" alt="F1 logo"
+        class="nav-logo-top" alt="Spanish flag"
       >
       <b-navbar-brand class="nav-title-top">Formula One</b-navbar-brand>
 
@@ -33,39 +33,12 @@ export default {
     }
   },
   methods: {
-
+    // <router-link to="/">Home</router-link> |
+    // <router-link to="/about">About</router-link>
   },
 }
 </script>
 
 <style scoped lang="scss">
-  .navbar-top {
-    background-color: #e10600;
-    border-bottom: 1px solid #fff;
-    z-index: 10000;
-  }
 
-  .nav-collapse-top {
-    justify-content: flex-end;
-  }
-
-  .nav-title-top {
-    font-family: 'Orbitron', 'sans-serif';
-    color: #fff !important;
-    text-shadow: 2px 2px #000;
-  }
-
-  .nav-logo-top {
-    margin: 0 0.5em;
-  }
-
-  .items-far-right {
-    justify-content: flex-end;
-  }
-
-  .place-toggle-button {
-    position: absolute;
-    right: 5px;
-    top: 2.5px;
-  }
 </style>

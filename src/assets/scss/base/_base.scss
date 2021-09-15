@@ -1,1 +1,25 @@
 // html, body, ul, p
+
+html {
+  box-sizing: border-box;
+  background-color: $middle-blue-green;
+}
+
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit; //from body element
+}
+
+body {
+  box-sizing: border-box;
+  // color: $color-white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
