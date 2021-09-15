@@ -1,0 +1,46 @@
+/*
+  This file is used to contain all utilities imports.
+  Files inside this folder can contain abstract settings, helpers or functions. 
+  They have no direct output.
+*/
+/*
+  This file is used to contain all base imports.
+  Files inside this folder can contain global styles used in the project.
+*/
+/*
+  This file is used to contain all component imports.
+  Files inside this folder should contain all styles relating to a reusable component.
+*/
+/*
+  EXAMPLE:
+  buttons.scss      # Buttons
+  carousel.scss     # Carousel
+  cover.scss        # Cover
+  dropdown.scss     # Dropdown
+*/
+/*
+  This file is used to contain all component imports.
+  Files inside this folder can contain specific element styles and layout. 
+*/
+/*
+  This file is used to contain all pages imports.
+*/
+/*
+  EXAMPLE:
+  home.scss         # Home specific styles
+  contact.scss      # Contact specific styles
+*/
+/*
+  All 3rd-party vendor tools (frameworks, libraries, helpers) should be separated into folders
+*/
+/*
+  EXAMPLE:
+  bourbon.io
+  neat.bourbon.io
+  fontawesome.io
+  github.com/necolas/normalize.css/
+*/
+/*
+  This file is used to contain all themes imports.
+  Every theme has its on file.
+*/
