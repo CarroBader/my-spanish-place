@@ -3,7 +3,6 @@ const { VueLoaderPlugin } = require('vue-loader')
 module.exports = {
   module: {
     rules: [
-      // ... other rules
       {
         test: /\.vue$/,
         loader: 'vue-loader'
@@ -13,23 +12,23 @@ module.exports = {
         use: [
           'vue-style-loader',
           'css-loader',
-          'sass-loader',
-          // {
-          //   loader: 'sass-loader',
-          //   options: {
-          //     indentedSyntax: true,
-          //     // sass-loader version >= 8
-          //     sassOptions: {
-          //       indentedSyntax: true
-          //     }
-          //   }
-          // }
-        ]
+          //'sass-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              additionalData: `@import "~@/assets/scss/main.scss";`
+            },
+          }
+        ] 
       }
     ]
   },
   plugins: [
-    // make sure to include the plugin!
     new VueLoaderPlugin()
-  ]
+  ],
+  resolve: {
+    alias: {
+      vue$: 'vue/dist/vue.runtime.esm.js' // 'vue/dist/vue.runtime.common.js' for webpack 1
+    }
+  }
 }

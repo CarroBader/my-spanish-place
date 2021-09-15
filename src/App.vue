@@ -1,29 +1,33 @@
 <template>
-  <div id="app" class="lejon">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="default-background-center">
+    <TopNav />
+
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import TopNav from './components/General/TopNav.vue'
+import Footer from './components/General/Footer.vue'
 
 export default {
-  name: 'App',
+  name: `App`,
   components: {
-    HelloWorld
-  }
+    TopNav,
+    Footer,
+  },
+  data() {
+    return {
+    }
+  },
+  created() {
+  },
+  methods: {
+
+  },
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+
 </style>
