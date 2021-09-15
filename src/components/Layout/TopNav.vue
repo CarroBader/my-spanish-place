@@ -38,7 +38,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
   .navbar-top {
     background-color: #e10600;
     border-bottom: 1px solid #fff;

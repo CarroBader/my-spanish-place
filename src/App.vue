@@ -1,14 +1,14 @@
 <template>
-  <div class="default-background-center">
+  <div>
     <TopNav />
-
+    <router-view />
     <Footer />
   </div>
 </template>
 
 <script>
-import TopNav from './components/General/TopNav.vue'
-import Footer from './components/General/Footer.vue'
+import TopNav from './components/Layout/TopNav.vue'
+import Footer from './components/Layout/Footer.vue'
 
 export default {
   name: `App`,
