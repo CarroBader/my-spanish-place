@@ -1,9 +1,14 @@
 footer {
   text-align: center;
-  background-color: $medium-champagne;
-  border-top: 1px solid $battleship-grey;
+  background-color: $green-yellow-crayola;
+  border-top: 2.5px solid $corn;
   bottom: 0;
   position: fixed;
   width: 100%;
   color: $white;
+}
+
+.footer-text {
+  color: $black;
+  margin: 0.7em 0;
 }

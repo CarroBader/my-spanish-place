@@ -13,12 +13,12 @@ module.exports = {
           'vue-style-loader',
           'css-loader',
           'sass-loader',
-          {
-            loader: 'sass-loader',
-            options: {
-              additionalData: `@import "./src/assets/scss/main.scss";`
-            },
-          }
+          // {
+          //   loader: 'sass-loader',
+          //   options: {
+          //     additionalData: `@import "./src/assets/scss/main.scss";`
+          //   },
+          // }
         ] 
       }
     ]

@@ -1,6 +1,6 @@
 .navbar-top {
   background-color: $light-coral;
-  border-bottom: 1px solid #fff;
+  border-bottom: 2.5px solid $light-pink;
   z-index: 10000;
 }
 
@@ -8,18 +8,21 @@
 //   justify-content: flex-end;
 // }
 
-// .nav-title-top {
-//   font-family: 'Orbitron', 'sans-serif';
-//   color: #fff !important;
-//   text-shadow: 2px 2px #000;
-// }
+.nav-title-top {
+  color: $orange_red_crayola !important;
+  font-family: $header;
+  font-size: 2.5em !important;
+  text-shadow: 1px 1px $english-vermillion;
+  padding: 0;
+}
 
 .nav-logo-top {
-  height: 10em;
+  height: 3.5em;
+  margin-right: 1em;
 }
 
 // .items-far-right {
-//   justify-content: flex-end;
+//   justify-content: flex-end; 77C9BA
 // }
 
 // .place-toggle-button {
@@ -27,3 +30,7 @@
 //   right: 5px;
 //   top: 2.5px;
 // }
+
+.test {
+  text-rendering: optimizeLegibility;
+}

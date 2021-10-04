@@ -4,7 +4,8 @@
         src="../../assets/logo.png"
         class="nav-logo-top" alt="Spanish flag"
       >
-      <b-navbar-brand class="nav-title-top">Formula One</b-navbar-brand>
+      <b-navbar-brand class="nav-title-top title">My Spanish Place</b-navbar-brand>
+
 
       <b-navbar-toggle class="place-toggle-button" target="nav-collapse"></b-navbar-toggle>
 
